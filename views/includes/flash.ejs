@@ -1,0 +1,40 @@
+<!-- <% if(success &&success.length) { %>
+    <div class="alert alert-success alert-dismissable fade-show col-6 offset-6" role="alert">
+        <%= success %>
+        <button
+         type="button" 
+         class="btn-close" 
+         data-bs-dismiss="alert" 
+         aria-label="Close"
+        ></button>
+    </div>
+<% } %> -->
+
+<!-- GPT BHAIYA -->
+<div class="d-flex justify-content-center">
+    <% if(success && success.length) { %>
+        <div class="alert alert-success alert-dismissible fade show col-6" role="alert">
+            <%= success %>
+            <button 
+             type="button" 
+             class="btn-close" 
+             data-bs-dismiss="alert" 
+             aria-label="Close"
+            ></button>
+        </div>
+    <% } %>
+</div>
+
+<div class="d-flex justify-content-center">
+    <% if(error && error.length) { %>
+        <div class="alert alert-danger alert-dismissible fade show col-6" role="alert">
+            <%= error %>
+            <button 
+             type="button" 
+             class="btn-close" 
+             data-bs-dismiss="alert" 
+             aria-label="Close"
+            ></button>
+        </div>
+    <% } %>
+</div>
