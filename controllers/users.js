@@ -1,3 +1,4 @@
+// controllers/users.js
 const User = require("../models/user"); 
 
 module.exports.renderSignupForm = (req, res) =>{
