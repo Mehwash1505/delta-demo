@@ -1,3 +1,4 @@
+// init/data.js
 const sampleListings =  [
   {
     title: "Cozy Beachfront Cottage",
