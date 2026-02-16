@@ -1,3 +1,4 @@
+// middleware.js
 const Listing = require("./models/listing");
 const Review = require("./models/review");
 const ExpressError = require("./utils/ExpressError.js");
